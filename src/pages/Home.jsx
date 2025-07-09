@@ -1,26 +1,30 @@
+import { Link }  from 'react-router-dom';
 
 function Home() {
   return (
     <div className="max-w-screen mx-auto overflow-x-hidden pb-10 bg-[#fdf9f0] h-screen">
+      {/* Banner */}
+      <div className="w-full h-[30px] overflow-hidden hidden lg:inline xl:hidden">
+        <img 
+          src="hero.jpeg" 
+          alt="Refiloe Mabejane" 
+          className="w-full h-full object-cover object-[center_10%]"
+        />
+      </div>
       <div className="flex flex-col-reverse lg:flex-row items-center ">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center max-w-4xl mx-auto mx-4 my-10 lg:my-4">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-1 grid-cols-1 gap-6 items-center justify-center max-w-4xl mx-auto mx-4 my-10 lg:my-4">
 
-          <div className="mx-4 lg:mx-2">
-
-            <h1 className="md:text-4xl text-3xl mb-2 mx-4">Strategic Communications Expert</h1>
-            <p className="text-xs font-light uppercase text-gray-500 mb-2 mx-4">Refiloe Mabejane</p>
-            <p className="text-sm font-light mx-4 max-w-md">
-              “I lead by listening, to you, and to the broader landscape so I can help advance your goals through strategy, structure, and story. I am guided by empathy, ethics, and a commitment to execution.”
-            </p>
-            <p className="text-xs font-light text-gray-800 mx-4 mt-2">Refiloe Mabejane</p>
-            <div className="flex gap-4 mx-4">
-            <button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">Explore <span className="hidden xl:inline">My Work</span></button>
-            <button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Download <span className="hidden xl:inline">Portfolio</span></button>
-            </div>
+          <div className="mx-4 xl:mx-18">
+            <h1 className="md:text-5xl text-3xl mx-5 xl:mx-14">Communications Strategist</h1>
           </div>
 
-          <div className="flex flex-col justify-center md:justify-end mx-10 lg:mx-4">
-            <p className="text-sm font-light my-4 md:inline hidden max-w-lg">I pivoted from program management to communications at the midpoint of my 19-year international development and public affairs career, enhancing my ability to design, monitor, and review impactful communication strategies. With roots in results-based management, I help organizations amplify voice, position priorities, and influence decision-makers and stakeholders through storytelling, messaging, and collaborative leadership.</p>
+          <div className="flex flex-col justify-center md:justify-end mx-10 xl:mx-15 xl:ml-20">
+            <p className="text-sm font-light mt-4 max-w-lg">“I lead strategic communications by listening—to you and the broader landscape—to advance your goals through strategy, structure, and story. Always guided by empathy, ethics, and a commitment to execution.”</p>
+            <p className="text-xs font-light text-gray-800 mt-2 mb-4 sm:mb-2">Refiloe Mabejane</p>
+            <div className="gap-4 hidden mt-2 mb-6 md:flex">
+            <Link to="/selected-works"><button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">Explore <span className="hidden xl:inline">My Work</span></button></Link>
+            <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in Touch</button></Link>
+            </div>
             <h2 className="text-xl font-semibold mb-4">Education</h2>
               <ul className="space-y-4">
               {/* UEA */}
@@ -64,7 +68,7 @@ function Home() {
             </ul>
           </div>
         </div>
-        <img src="hero.jpeg" alt="Refiloe Mabejane" className="h-auto w-[800px] rounded-bl-[80px]"/>
+        <img src="hero.jpeg" alt="Refiloe Mabejane" className="h-auto w-[600px] md:w-[800px] lg:w-[700px] rounded-bl-[80px] lg:hidden xl:inline"/>
       </div>
     </div>
   );

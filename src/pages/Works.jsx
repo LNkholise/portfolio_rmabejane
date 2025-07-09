@@ -11,31 +11,31 @@ function Works() {
     },
     {
       id: 2,
-      title: "Technical Content | Writing Skills",
+      title: "Technical | Content & Messaging",
       image: "bento/4.jpg",
       link: "selection2",
-      text: "Transform complex policy into action-driven messaging"
+      text: "Turning complex ideas into clear, action-ready communications"
     },
     {
       id: 3,
-      title: "Visual | Media Engagement",
+      title: "Visual | Design & Storytelling",
       image: "bento/3.jpg",
       link: "selection3",
-      text: "Aligning graphics with powerful narratives"
+      text: "Creating strategic, visually compelling content that supports storytelling"
     },
     {
       id: 4,
-      title: "Campaigns | Strategy",
+      title: "Campaigns | Driving Global Influence",
       image: "bento/2.jpg",
       link: "selection4",
       text: "Strategic communication planning and execution"
     },
     {
       id: 5,
-      title: "Multimedia | Events",
+      title: "Events | Multimedia & Promotion",
       image: "bento/1.jpg",
       link: "selection5",
-      text: "Comprehensive event coverage and promotion"
+      text: "Delivering comprehensive event communications that build momentum"
     },
   ];
 
@@ -50,10 +50,13 @@ function Works() {
                     <p className="text-sm mt-2">
             Strategic communicator. Collaborative leader. Global thinker.
           </p>
-          <p className="text-xs md:text-md text-gray-800 leading-relaxed font-light mt-5">
+          <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
             I’m a communications strategist and project leader with nearly two decades of experience in international development and public affairs spanning government, multilateral institutions, and civil society. I’ve built a reputation for delivering communications that are thoughtful, impactful, and deeply aligned with organizational purpose.
 
-            My strength lies in integrated communications, bringing together messaging, content, design, and engagement into cohesive strategies that move audiences and advance change. I lead with a cross-functional, cross-agency mindset, often partnering across sectors to co-create strategic solutions.
+            My strength lies in integrated communications: bringing together messaging, content, design, and engagement into cohesive strategies that move audiences and advance change. I lead with a cross-functional, cross-agency mindset, often partnering across sectors to co-create strategic solutions.
+            <br />
+            <br />
+            This portfolio showcases selected work.
           </p>
         </div>
         <div>
