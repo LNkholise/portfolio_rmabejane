@@ -16,8 +16,7 @@ function Contact() {
         
         <section>
         <div className="py-6">
-          <h1 className="md:text-5xl text-3xl font-medium">Professional Impressions</h1>
-          <p className="text-xs font-light uppercase text-gray-500 mb-2 mt-4">Testimonials</p>
+          <h1 className="md:text-5xl text-3xl font-medium">Testimonials</h1>
         </div>
 
           <div className="grid md:grid-cols-2 gap-16">
