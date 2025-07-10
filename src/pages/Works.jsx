@@ -4,35 +4,35 @@ function Works() {
   const gridItems = [
     {
       id: 1,
-      title: "Executive | Writing Skills",
+      title: "Writing",
       image: "bento/5.jpg",
       link: "selection1",
       text: "Craft speeches, talking points, and briefs for senior leaders"
     },
     {
       id: 2,
-      title: "Technical | Content & Messaging",
+      title: "Content & Messaging",
       image: "bento/4.jpg",
       link: "selection2",
       text: "Turning complex ideas into clear, action-ready communications"
     },
     {
       id: 3,
-      title: "Visual | Design & Storytelling",
+      title: "Design & Storytelling",
       image: "bento/3.jpg",
       link: "selection3",
       text: "Creating strategic, visually compelling content that supports storytelling"
     },
     {
       id: 4,
-      title: "Campaigns | Driving Global Influence",
+      title: "Campaigns",
       image: "bento/2.jpg",
       link: "selection4",
       text: "Strategic communication planning and execution"
     },
     {
       id: 5,
-      title: "Events | Multimedia & Promotion",
+      title: "Events",
       image: "bento/1.jpg",
       link: "selection5",
       text: "Delivering comprehensive event communications that build momentum"
