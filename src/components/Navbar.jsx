@@ -22,7 +22,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink to="/selected-works" className={({ isActive }) => (isActive ? 'text-blue-500 font-semibold' : 'text-gray-800')}>
-              Selected Works
+              About Me
             </NavLink>
           </li>
           <li>
@@ -62,7 +62,7 @@ export default function Navbar() {
         </li>
         <li className="py-1">
           <NavLink to="/selected-works" className={({ isActive }) => (isActive ? 'text-blue-600 font-semibold' : 'text-gray-800')}>
-            Selected Works
+            About Me
           </NavLink>
         </li>
         <li className="py-1">
