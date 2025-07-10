@@ -21,7 +21,6 @@ function Details() {
         <div>
           <ArrowLeft className="cursor-pointer bg-white p-2 rounded-md shadow-md w-10 h-10" onClick={() => window.history.back()} />
           <h1 className="text-2xl md:text-4xl font-medium mt-4">{work.title}</h1>
-          <p className="text-xs font-light uppercase text-gray-500 mb-5 mt-2">{work.selection}</p>
           <img src={`/${work.selection}/${work.img1}`} alt="Selected Work" className="w-full h-auto rounded-l-md shadow-lg mb-4" />
           <p className="text-xs text-gray-700 leading-relaxed font-semibold ml-4">{work.caption}</p>
         </div>
