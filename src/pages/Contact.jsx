@@ -8,7 +8,7 @@ function Contact() {
         <img
           src="contact.png"
           alt="Open notebook, pen and coffee mug on a desk"
-          className="w-full h-[700px] object-cover object-center"
+          className="w-full h-[700px] object-cover object-[center_20%]"
         />
       </div>
 
