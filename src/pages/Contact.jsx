@@ -2,7 +2,7 @@ import { Mail, LinkedinIcon, Phone } from "lucide-react";
 
 function Contact() {
   return (
-    <div className=" bg-[#fdf9f0]">
+    <div className=" bg-[#fdf9f0] h-screen">
       {/* Banner */}
       <div className="w-full max-h-[360px] overflow-hidden">
         <img
