@@ -4,38 +4,38 @@ function Works() {
   const gridItems = [
     {
       id: 1,
-      title: "Writing",
+      title: "Executive & High-Stakes Writing",
       image: "bento/5.jpg",
       link: "selection1",
-      text: "Craft speeches, talking points, and briefs for senior leaders"
+      text: "Credible narratives for leadership presence and influence"
     },
     {
       id: 2,
-      title: "Content & Messaging",
+      title: "Strategic Content & Editorial Leadership",
       image: "bento/4.jpg",
       link: "selection2",
-      text: "Turning complex ideas into clear, action-ready communications"
+      text: "Policy-informed communications that engage and mobilize audiences"
     },
     {
       id: 3,
-      title: "Design & Storytelling",
+      title: "Visual & Multimedia Storytelling",
       image: "bento/3.jpg",
       link: "selection3",
-      text: "Creating strategic, visually compelling content that supports storytelling"
+      text: "Design-led communications that reinforce message and meaning"
     },
     {
       id: 4,
-      title: "Campaigns",
+      title: "Integrated Campaigns & Media Strategy",
       image: "bento/2.jpg",
       link: "selection4",
-      text: "Strategic communication planning and execution"
+      text: "Coordinated approaches that strengthen voice, visibility, and engagement"
     },
     {
       id: 5,
-      title: "Events",
+      title: "Event & Moment-Based Communications",
       image: "bento/1.jpg",
       link: "selection5",
-      text: "Delivering comprehensive event communications that build momentum"
+      text: "Turning convenings into strategic content and sustained engagement"
     },
   ];
 
