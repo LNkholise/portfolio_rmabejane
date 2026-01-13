@@ -44,13 +44,15 @@ function Works() {
       <div className="max-w-7xl mx-auto mt-40 mb-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
         <div>
           <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Strategic communicator.</h1>
-          <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Collaborative leader.</h1>
-     	    <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Global thinker.</h1>
+          <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Narrative steward.</h1>
+     	    <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Collaborative leader.</h1>
         </div>
         <div>
           <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
-           Strategic communications leader with 19+ years of experience transforming complex ideas into compelling narratives and impactful movements. I’ve partnered with organizations like the UN, USAID, and global civil society networks to elevate visibility, influence policy, and drive action. Known for aligning communications with organizational purpose, I specialize in integrated strategies that blend messaging, content, design, and engagement. My cross-functional, cross-sector approach enables me to
-            co-create inclusive, strategic solutions that resonate with and engage diverse audiences.
+            Words are the foundation of effective communications, and strategy amplifies their power. 
+            With roots in program management, I blend a strong strategic background with deep writing expertise to translate complex ideas into <b>solid narratives</b>, <b>campaigns</b>, <b>and movements</b>.
+            I align communications with organizational purpose through integrated approaches that bring together messaging, content, design, and engagement. 
+            I’ve collaborated within organizations such as the UN, USAID, and global civil society networks to ensure messaging is understood, trusted, and supported.
             <br />
             <br />
             This portfolio showcases selected work.
