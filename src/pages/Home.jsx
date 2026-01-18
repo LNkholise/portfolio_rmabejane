@@ -26,10 +26,10 @@ function Home() {
             <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in Touch</button></Link>
             </div>
             <h2 className="text-xl font-semibold mb-4">Achievements</h2>
-            <ul className="list-disc list-inside gap-4 text-sm mb-2 max-w-lg">
-              <li>Scaled global communications supporting $500M+ portfolios across 120+ countries.</li>
-              <li>Accelerated audience growth and engagement by up to 250%.</li>
-              <li>Trusted advisor on executive and crisis communications during high-stakes moments, including the U.S. government-supported COVID-19 response.</li>
+            <ul className="list-disc list-inside gap-4 text-xs mb-2 max-w-lg">
+              <li className="mb-2">Scaled global communications supporting $500M+ portfolios across 120+ countries.</li>
+              <li className="mb-2">Accelerated audience growth and engagement by up to 250%.</li>
+              <li className="mb-2">Trusted advisor on executive and crisis communications during high-stakes moments, including the U.S. government-supported COVID-19 response.</li>
             </ul>
             <h2 className="text-xl font-semibold mb-4">Education</h2>
               <ul className="space-y-4">
