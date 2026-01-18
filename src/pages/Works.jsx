@@ -50,7 +50,7 @@ function Works() {
         <div>
           <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
             Words are the foundation of effective communications, and strategy amplifies their power. 
-            With roots in program management, I blend a strong strategic background with deep writing expertise to translate complex ideas into <b>solid narratives</b>, <b>campaigns</b>, <b>and movements</b>.
+            With roots in program management, I blend a strong strategic background with deep writing expertise to translate complex ideas into solid narratives, campaigns, and movements.
             I align communications with organizational purpose through integrated approaches that bring together messaging, content, design, and engagement. 
             I’ve collaborated within organizations such as the UN, USAID, and global civil society networks to ensure messaging is understood, trusted, and supported.
             <br />
