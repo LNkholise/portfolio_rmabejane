@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { Menu, X, LinkedinIcon, AtSignIcon } from 'lucide-react';
+import { Menu, X, LinkedinIcon } from 'lucide-react';
 import React from 'react';
 
 export default function Navbar() {
