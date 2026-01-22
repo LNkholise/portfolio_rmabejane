@@ -43,7 +43,7 @@ export function HighlightsCarousel() {
       <div className="min-h-[50px] flex items-start">
         <p 
           key={current} 
-          className="text-xs sm:text-sm leading-relaxed animate-in fade-in slide-in-from-right-4 duration-500"
+          className="text-sm sm:text-base leading-relaxed animate-in fade-in slide-in-from-right-4 duration-500"
         >
           {highlights[current].content}
         </p>
