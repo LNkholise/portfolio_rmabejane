@@ -1,4 +1,67 @@
 import { Link }  from 'react-router-dom';
+import { useState, useEffect } from "react"
+
+const highlights = [
+  {
+    id: 1,
+    content: (
+      <>
+        Scaled global communications supporting <b>$500M+</b> portfolios across <b>120+ countries</b>.
+      </>
+    )
+  },
+  {
+    id: 2,
+    content: (
+      <>
+        Accelerated audience growth and engagement by up to <b>250%</b>.
+      </>
+    )
+  },
+  {
+    id: 3,
+    content: (
+      <>
+        Trusted advisor on executive and crisis communications during high-stakes moments (COVID-19 response).
+      </>
+    )
+  }
+]
+
+export function HighlightsCarousel() {
+  const [current, setCurrent] = useState(0)
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev === highlights.length - 1 ? 0 : prev + 1))
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [])
+
+  return (
+    <div className="w-full max-w-lg">
+      <h2 className="text-xl font-semibold mb-4 text-slate-900">Highlights</h2>
+      <div className="min-h-[80px] flex items-start">
+        <p 
+          key={current} 
+          className="text-sm sm:text-base text-slate-700 leading-relaxed animate-in fade-in slide-in-from-right-4 duration-500"
+        >
+          {highlights[current].content}
+        </p>
+      </div>
+      <div className="flex gap-2 mt-4">
+        {highlights.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrent(index)}
+            className={`h-2 rounded-full transition-all duration-300 
+              ${index === current ? "w-6 bg-slate-900" : "w-2 bg-slate-300 hover:bg-slate-400"}`}
+            aria-label={`View highlight ${index + 1}`}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
 
 function Home() {
   return (
@@ -25,12 +88,7 @@ function Home() {
             <Link to="/selected-works"><button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">Explore <span className="hidden xl:inline">My Work</span></button></Link>
             <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in Touch</button></Link>
             </div>
-            <h2 className="text-xl font-semibold mb-4">Highlights</h2>
-            <ul className="list-disc list-inside gap-4 text-xs sm:text-sm mb-2 max-w-lg">
-              <li className="mb-2">Scaled global communications supporting <b>$500M+</b> portfolios across <b>120+ countries</b>.</li>
-              <li className="mb-2">Accelerated audience growth and engagement by up to <b>250%</b>.</li>
-              <li className="mb-2">Trusted advisor on executive and crisis communications during high-stakes moments, including the U.S. government-supported COVID-19 response.</li>
-            </ul>
+            <HighlightsCarousel />
             <h2 className="text-xl font-semibold mb-4">Education</h2>
               <ul className="space-y-4">
               {/* UEA */}
