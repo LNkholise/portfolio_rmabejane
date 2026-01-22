@@ -39,22 +39,22 @@ export function HighlightsCarousel() {
 
   return (
     <div className="w-full max-w-lg">
-      <h2 className="text-xl font-semibold mb-4 text-slate-900">Highlights</h2>
+      <h2 className="text-xl font-semibold mb-4">Highlights</h2>
       <div className="min-h-[80px] flex items-start">
         <p 
           key={current} 
-          className="text-sm sm:text-base text-slate-700 leading-relaxed animate-in fade-in slide-in-from-right-4 duration-500"
+          className="text-sm sm:text-base leading-relaxed animate-in fade-in slide-in-from-right-4 duration-500"
         >
           {highlights[current].content}
         </p>
       </div>
-      <div className="flex gap-2 mt-4">
+      <div className="flex gap-2 my-4">
         {highlights.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrent(index)}
             className={`h-2 rounded-full transition-all duration-300 
-              ${index === current ? "w-6 bg-slate-900" : "w-2 bg-slate-300 hover:bg-slate-400"}`}
+              ${index === current ? "w-6 bg-black" : "w-2 bg-black/60 hover:bg-slate-400"}`}
             aria-label={`View highlight ${index + 1}`}
           />
         ))}
