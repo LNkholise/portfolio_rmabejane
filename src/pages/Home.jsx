@@ -6,7 +6,7 @@ const highlights = [
     id: 1,
     content: (
       <>
-        Scaled global communications supporting <b>$500M+</b> portfolios across <b>120+ countries</b>.
+        <b>20 years</b> in international development communications, advocacy, and program management
       </>
     )
   },
@@ -14,7 +14,7 @@ const highlights = [
     id: 2,
     content: (
       <>
-        Accelerated audience growth and engagement by up to <b>250%</b>.
+        <b>$500M+</b> in portfolios across <b>120+ countries</b>, supported by communications I led
       </>
     )
   },
@@ -22,7 +22,7 @@ const highlights = [
     id: 3,
     content: (
       <>
-        Trusted advisor on executive and crisis communications during high-stakes moments (COVID-19 response).
+        <b>250%</b> peak growth in audience and engagement
       </>
     )
   }
@@ -78,15 +78,14 @@ function Home() {
         <div className="grid lg:grid-cols-2 xl:grid-cols-1 grid-cols-1 gap-6 items-center justify-center max-w-4xl mx-auto mx-4 my-10 lg:my-4">
 
           <div className="mx-4 xl:mx-18">
-            <h1 className="md:text-5xl text-3xl mx-5 xl:mx-14">Communications Strategist</h1>
+            <h1 className="md:text-5xl text-3xl mx-5 xl:mx-14">Refiloe Mabejane</h1>
           </div>
 
           <div className="flex flex-col justify-center md:justify-end mx-10 xl:mx-15 xl:ml-20">
-            <p className="text-md font-light mt-4 max-w-lg">“I lead strategic communications by listening – to you and the broader landscape – to advance your goals through strategy, structure, and story. Always guided by empathy, ethics, and a commitment to execution.”</p>
-            <p className="text-xs font-light text-gray-800 mt-2 mb-4 sm:mb-2">Refiloe Mabejane</p>
+            <p className="text-md font-light mt-4 mb-4 sm:mb-2 max-w-lg">Communications strategist</p>
             <div className="gap-4 hidden mt-2 mb-6 md:flex">
-            <Link to="/selected-works"><button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">Explore <span className="hidden xl:inline">My Work</span></button></Link>
-            <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in Touch</button></Link>
+            <Link to="/selected-works"><button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">See my work</button></Link>
+            <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in touch</button></Link>
             </div>
             <HighlightsCarousel />
             <h2 className="text-xl font-semibold mb-4">Education</h2>
@@ -99,7 +98,7 @@ function Home() {
                   className="w-12 h-12 object-contain"
                 />
                 <div>
-                  <p className="text-xs sm:text-sm font-medium">Master of Arts in International Development and Gender</p>
+                  <p className="text-xs sm:text-sm font-medium">MA, Gender Analysis in International Development</p>
                   <p className="text-xs text-gray-600">University of East Anglia, UK</p>
                 </div>
               </li>
@@ -113,7 +112,7 @@ function Home() {
                 />
                 <div>
                   <p className="text-xs sm:text-sm font-medium">Leadership Essentials Certificate</p>
-                  <p className="text-xs text-gray-600">Cornell University, US</p>
+                  <p className="text-xs text-gray-600">Cornell, US</p>
                 </div>
               </li>
 
@@ -125,7 +124,7 @@ function Home() {
                   className="w-12 h-12 object-contain"
                 />
                 <div>
-                  <p className="text-xs sm:text-sm font-medium">Bachelor of Arts in Psychology</p>
+                  <p className="text-xs sm:text-sm font-medium">BA, Psychology</p>
                   <p className="text-xs text-gray-600">University of Johannesburg, South Africa</p>
                 </div>
               </li>

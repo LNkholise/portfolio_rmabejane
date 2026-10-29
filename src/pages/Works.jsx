@@ -4,38 +4,43 @@ function Works() {
   const gridItems = [
     {
       id: 1,
-      title: "Executive & High-Stakes Writing",
-      image: "bento/5.jpg",
+      title: "Executive Communications",
+      image: "/bento/5.jpg",
+      imagePosition: "object-[center_10%]",
       link: "selection1",
-      text: "Credible narratives for leadership presence and influence"
+      text: "Speeches, op-eds, and briefs for senior government and agency leaders"
     },
     {
       id: 2,
-      title: "Strategic Content & Editorial Leadership",
-      image: "bento/4.jpg",
+      title: "Content Strategy & Editorial",
+      image: "/bento/4.jpg",
+      imagePosition: "object-center",
       link: "selection2",
-      text: "Policy-informed communications that engage and mobilize audiences"
+      text: "Newsletters, reports, and toolkits for U.S. government programs and global networks"
     },
     {
       id: 3,
-      title: "Visual & Multimedia Storytelling",
-      image: "bento/3.jpg",
+      title: "Visual Storytelling",
+      image: "/bento/3.jpg",
+      imagePosition: "object-center",
       link: "selection3",
-      text: "Design-led communications that reinforce message and meaning"
+      text: "Social media series, infographics, and campaign video"
     },
     {
       id: 4,
-      title: "Integrated Campaigns & Media Strategy",
-      image: "bento/2.jpg",
+      title: "Campaigns & Media Relations",
+      image: "/bento/2.jpg",
+      imagePosition: "object-center",
       link: "selection4",
-      text: "Coordinated approaches that strengthen voice, visibility, and engagement"
+      text: "National and global campaigns, with coverage in The Lancet, Devex, and the Lesotho Times"
     },
     {
       id: 5,
-      title: "Event & Moment-Based Communications",
-      image: "bento/1.jpg",
+      title: "Events & Convenings",
+      image: "/bento/1.jpg",
+      imagePosition: "object-center",
       link: "selection5",
-      text: "Turning convenings into strategic content and sustained engagement"
+      text: "Regional ministerial conferences, a royal state visit, and global webinar series"
     },
   ];
 
@@ -43,19 +48,13 @@ function Works() {
     <div className="works min-h-screen p-4 bg-[#fdf9f0] flex flex-col justify-between">
       <div className="max-w-7xl mx-auto mt-40 mb-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
         <div>
-          <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Strategic communicator.</h1>
-          <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Narrative steward.</h1>
-     	    <h1 className="md:text-5xl text-3xl  font-medium mt-4"> Collaborative leader.</h1>
+          <h1 className="md:text-5xl text-3xl  font-medium mt-4">Structure. Strategy. Story.</h1>
+          <p className="text-sm md:text-md text-gray-800 font-light mt-4">For institutions, their leaders, and the people they serve.</p>
         </div>
         <div>
           <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
-            Words are the foundation of effective communications, and strategy amplifies their power. 
-            With roots in program management, I blend a strong strategic background with deep writing expertise to translate complex ideas into solid narratives, campaigns, and movements.
-            I align communications with organizational purpose through integrated approaches that bring together messaging, content, design, and engagement. 
-            I’ve collaborated within organizations such as the UN, USAID, and global civil society networks to ensure messaging is understood, trusted, and supported.
-            <br />
-            <br />
-            This portfolio showcases selected work.
+            My work has taken me from hospital settings and communities to Irish Aid, the UN, USAID, and global multisectoral partnerships.
+            I write, edit, and direct executive, institutional, technical, advocacy, and programmatic communications that multi-stakeholder audiences can more easily digest and apply.
           </p>
         </div>
         <div>
@@ -74,8 +73,9 @@ function Works() {
               <img 
                 src={item.image} 
                 alt={item.title} 
-                className="absolute rounded-lg inset-0 w-full h-full object-cover z-0 opacity-70 group-hover:opacity-50 transition-opacity"
+                className={`absolute rounded-lg inset-0 w-full h-full object-cover ${item.imagePosition} z-0 opacity-100 group-hover:opacity-100 transition-opacity`}
               />
+              <div className="absolute inset-0 rounded-lg z-0 bg-gradient-to-b from-black/0 via-black/10 to-black/50"></div>
               <div className="relative z-10 flex flex-col justify-between h-full">
                 <div className="flex items-center justify-between">
                   <h5 className="text-md font-bold">{item.title}</h5>

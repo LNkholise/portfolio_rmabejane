@@ -22,19 +22,16 @@ function Contact() {
           <div className="grid md:grid-cols-2 gap-16">
             <div>
               <blockquote className="italic text-xs text-gray-800">
-                “
-Refiloe is a communications expert who also brings a passion for advocacy and strong skills in social media to her work. I was fortunate to hire her to lead communications for the Secretariat of the Civil Society Engagement Mechanism for UHC2030. She built communications for this global network of over 1000 members from scratch-designing the comms strategy, building our website, establishing our social media presence and growing it exponentially, identifying opportunities for our advocacy messages to be published in major journals and blogs, generating original content for monthly newsletters, and always amplifying the voices of CSOs at the country level!”
+                “Refiloe is a communications expert who also brings a passion for advocacy and strong skills in social media to her work. I was fortunate to hire her to lead communications for the Secretariat of the Civil Society Engagement Mechanism for UHC2030. She built communications for this global network of over 1,000 members from scratch: designing the comms strategy, building our website, establishing our social media presence and growing it exponentially, identifying opportunities for our advocacy messages to be published in major journals and blogs, generating original content for monthly newsletters, and always amplifying the voices of CSOs at the country level!”
               </blockquote>
-              <footer className="mt-4 text-sm text-gray-600"> Amy Boldosser-Boesch, Former Supervisor, Non-profit executive, Board chair</footer>
+              <footer className="mt-4 text-sm text-gray-600">Amy Boldosser-Boesch, Senior Technical Director for Health Policy, Advocacy, and Engagement and Integrated Health Care, Management Sciences for Health (MSH)</footer>
             </div>
 
             <div>
               <blockquote className="italic text-xs text-gray-800">
-                “Refiloe's best attributes during that time, were her ability to coordinate the multi-sectoral evaluation task team, facilitating evaluation workshops and eventually contributing to finalization of the evaluation report. Refiloe demonstrated great organizational skills, and went on to support capacity building of local Irish Aid partners in Managing for Development Results which was been pioneered at the time. Overall, Refiloe was able to perform both administrative and programmatic duties as necessary. She is an adaptable person who blends effortlessly with people of all backgrounds. Her cheerful attitude towards her colleagues, and work, makes her very easy to work with and supervise.
-
-”
+                “Refiloe’s best attributes during that time were her ability to coordinate the multi-sectoral evaluation task team, facilitate evaluation workshops, and contribute to finalizing the evaluation report. She went on to support capacity building of local Irish Aid partners in Managing for Development Results, which had been pioneered at the time. She is an adaptable person who blends effortlessly with people of all backgrounds.”
               </blockquote>
-              <footer className="mt-4 text-sm text-gray-600"> Brendan McGrath, Former Head of Development, Irish Aid</footer>
+              <footer className="mt-4 text-sm text-gray-600">Brendan McGrath, Former Head of Development, Irish Aid</footer>
             </div>
           </div>
         </section>
@@ -47,10 +44,10 @@ Refiloe is a communications expert who also brings a passion for advocacy and st
                 rel="noopener noreferrer"
                 className="flex"
               >
-                   <button className="flex items-center gap-2 rounded-md bg-gray-800 p-2 text-white hover:bg-blue-600 transition">
-                         <LinkedinIcon size={16} />
-                   </button>
-               </a>
+                  <button className="flex items-center gap-2 rounded-md bg-gray-800 p-2 text-white hover:bg-blue-600 transition">
+                        <LinkedinIcon size={16} />
+                  </button>
+              </a>
 
               <a
                 href="mailto:rmmabejane@gmail.com"
@@ -58,10 +55,10 @@ Refiloe is a communications expert who also brings a passion for advocacy and st
                 rel="noopener noreferrer"
                 className="flex"
               >
-                   <button className="flex items-center gap-2 rounded-md bg-gray-800 p-2 text-white hover:bg-red-600 transition">
-                         <Mail size={16} />
-                   </button>
-               </a>
+                  <button className="flex items-center gap-2 rounded-md bg-gray-800 p-2 text-white hover:bg-red-600 transition">
+                        <Mail size={16} />
+                  </button>
+              </a>
 
               <a
                 href="tel:+15713761911"
@@ -69,10 +66,10 @@ Refiloe is a communications expert who also brings a passion for advocacy and st
                 rel="noopener noreferrer"
                 className="flex"
               >
-                   <button className="flex items-center gap-2 rounded-md bg-gray-800 p-2 text-white hover:bg-green-600 transition">
-                         <Phone size={16} />
-                   </button>
-               </a>
+                  <button className="flex items-center gap-2 rounded-md bg-gray-800 p-2 text-white hover:bg-green-600 transition">
+                        <Phone size={16} />
+                  </button>
+              </a>
             </div>
           </div>
         </section>
