@@ -21,7 +21,7 @@ const works = [
       banner: "3.jpg",
       img1: "main.png",
       caption: "Social media campaign for the impact report of the U.S. government’s $300M GEEA Fund · 2024",
-      text1: "I provide narrative and creative direction to designers and videographers on infographics, data visuals, social cards, and videos, writing the brief, the words, and the data story behind each one.",
+      text1: "Social media graphics directed for USAID’s agency-wide, global Gender-Based Violence campaign, 2024 .",
     },
     {
       selection: "selection4",
@@ -29,7 +29,7 @@ const works = [
       banner: "2.jpg",
       img1: "main.png",
       caption: "#UHC4Me global video campaign · CSEM / UHC2030 · 2019",
-      text1: "I develop the message, bring partners behind it, plan the channels, and take the story to the press, from national papers in Lesotho to The Lancet. My campaigns have centered women’s safety, HIV, and the right to health.",
+      text1: "My campaign efforts began on the ground, mobilizing communities around gender-based violence, HIV, and the right to health, through initiatives such as the global Safe Cities for Women campaign. That experience laid the foundation for the digital campaigns I've led since, including the #UHC4Me global video campaign in more than 15 languages. In both, I develop the messages, rally organizations and allies to amplify them, plan the channels, and take the story to local, regional, and global outlets such as The Lancet.",
     },
     {
       selection: "selection5",
@@ -37,7 +37,7 @@ const works = [
       banner: "1.jpg",
       img1: "main.jpg",
       caption: "Post-event recap · Global Health Security Conference 2022",
-      text1: "My event work began in person: organizing a regional SADC ministerial conference in ten days, and serving on the protocol team for a royal state visit. Today I plan communications for global learning series and weeks of action.",
+      text1: "My event work began in person, planning and coordinating side events at the UN General Assembly, high-level diplomatic events such as an official head-of-state visit, where I served on the Government of Ireland's protocol team, and a regional SADC ministerial conference organized in ten days. That experience paved the way for the global virtual events I lead today, such as webinars and learning series. I run their logistics and pre- and post-event communications, coordinating with internal and external partners.",
     },
   ];
 

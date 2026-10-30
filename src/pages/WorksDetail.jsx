@@ -26,7 +26,7 @@ function Details() {
         </div>
 
         <div>
-          <p className="text-md text-gray-700 leading-relaxed font-light ml-4 mt-5">
+          <p className="text-md text-black-700 leading-relaxed font-light-medium ml-4 mt-5">
             {work.text1}
           </p>
         </div>
