@@ -32,7 +32,7 @@ function Works() {
       image: "/bento/2.jpg",
       imagePosition: "object-center",
       link: "selection4",
-      text: "National and Global campaigns"
+      text: "National and global campaigns, with coverage in The Lancet, Devex, and the Lesotho Times"
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ function Works() {
       <div className="max-w-7xl mx-auto mt-40 mb-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
         <div>
           <h1 className="md:text-5xl text-3xl  font-medium mt-4">Structure. Strategy. Story.</h1>
-          <p className="text-sm md:text-md text-black-800 font-light italic mt-4">For institutions, their leaders, and the people they serve.</p>
+          <p className="text-sm md:text-md text-gray-800 font-light mt-4">For institutions, their leaders, and the people they serve.</p>
         </div>
         <div>
           <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
@@ -78,7 +78,7 @@ function Works() {
               <div className="absolute inset-0 rounded-lg z-0 bg-gradient-to-b from-black/0 via-black/10 to-black/50"></div>
               <div className="relative z-10 flex flex-col justify-between h-full">
                 <div className="flex items-center justify-between">
-                  <h5 className="text-md font-bold text-black">{item.title}</h5>
+                  <h5 className="text-md font-bold">{item.title}</h5>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 18L18 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                     <path d="M8.25 6H18V15.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>

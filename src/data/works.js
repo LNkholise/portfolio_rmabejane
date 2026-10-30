@@ -20,8 +20,8 @@ const works = [
       title: "Visual Storytelling",
       banner: "3.jpg",
       img1: "main.png",
-      caption: "Social media graphics directed for USAID’s agency-wide, global Gender-Based Violence campaign, 2024.",
-      text1: "I provide narrative and creative direction to designers and videographers on infographics, data visuals, social cards, and videos, writing the brief, the words, and the data story behind each one.",
+      caption: "Social media campaign for the impact report of the U.S. government’s $300M GEEA Fund · 2024",
+      text1: "Social media graphics directed for USAID’s agency-wide, global Gender-Based Violence campaign, 2024 .",
     },
     {
       selection: "selection4",
