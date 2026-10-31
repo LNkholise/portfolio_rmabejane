@@ -32,7 +32,7 @@ function Works() {
       image: "/bento/2.jpg",
       imagePosition: "object-center",
       link: "selection4",
-      text: "National and global campaigns, with coverage in The Lancet, Devex, and the Lesotho Times"
+      text: "National and Global campaigns"
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ function Works() {
       <div className="max-w-7xl mx-auto mt-40 mb-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
         <div>
           <h1 className="md:text-5xl text-3xl  font-medium mt-4">Structure. Strategy. Story.</h1>
-          <p className="text-sm md:text-md text-gray-800 font-light mt-4">For institutions, their leaders, and the people they serve.</p>
+          <p className="text-sm md:text-md text-gray-800 font-light italic mt-4">For institutions, their leaders, and the people they serve.</p>
         </div>
         <div>
           <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
@@ -68,24 +68,29 @@ function Works() {
             <Link 
               to={`/selected-works/${item.link}`}  
               key={item.id} 
-              className="min-w-[280px] md:min-w-[320px] h-80 rounded-lg flex-shrink-0 relative p-6 bg-black text-white transition group"
+              className="w-[300px] md:w-[480px] flex-shrink-0 flex flex-col group"
             >
-              <img 
-                src={item.image} 
-                alt={item.title} 
-                className={`absolute rounded-lg inset-0 w-full h-full object-cover ${item.imagePosition} z-0 opacity-100 group-hover:opacity-100 transition-opacity`}
-              />
-              <div className="absolute inset-0 rounded-lg z-0 bg-gradient-to-b from-black/0 via-black/10 to-black/50"></div>
-              <div className="relative z-10 flex flex-col justify-between h-full">
-                <div className="flex items-center justify-between">
-                  <h5 className="text-md font-bold">{item.title}</h5>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6 18L18 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    <path d="M8.25 6H18V15.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                  </svg>
+              {/* Image card: arrow and subtitle stay on the image */}
+              <div className="relative h-80 rounded-lg p-6 bg-black text-white overflow-hidden">
+                <img 
+                  src={item.image} 
+                  alt={item.title} 
+                  className={`absolute rounded-lg inset-0 w-full h-full object-cover ${item.imagePosition} z-0 opacity-100 group-hover:opacity-90 transition-opacity`}
+                />
+                <div className="absolute inset-0 rounded-lg z-0 bg-gradient-to-b from-black/40 via-black/10 to-black/60"></div>
+                <div className="relative z-10 flex flex-col justify-between h-full">
+                  <div className="flex items-center justify-end">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 18L18 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                      <path d="M8.25 6H18V15.75" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                    </svg>
+                  </div>
+                  <p className="mt-4 text-xs">{item.text}</p>
                 </div>
-                <p className="mt-4 text-xs">{item.text}</p>
               </div>
+              
+              {/* Title */}
+              <h5 className="mt-3 text-sm font-semibold text-center text-gray-900">{item.title}</h5>
             </Link>
           ))}
         </div>
