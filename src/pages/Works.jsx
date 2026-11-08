@@ -8,40 +8,35 @@ function Works() {
       image: "/bento/5.jpg",
       imagePosition: "object-[center_10%]",
       link: "selection1",
-      text: "Speeches, op-eds, and briefs for senior government and agency leaders"
-    },
+      },
     {
       id: 2,
       title: "Content Strategy & Editorial",
       image: "/bento/4.jpg",
       imagePosition: "object-center",
       link: "selection2",
-      text: "Newsletters, reports, and toolkits for U.S. government programs and global networks"
-    },
+      },
     {
       id: 3,
       title: "Visual Storytelling",
       image: "/bento/3.jpg",
       imagePosition: "object-center",
       link: "selection3",
-      text: "Social media series, infographics, and campaign video"
-    },
+      },
     {
       id: 4,
       title: "Campaigns & Media Relations",
       image: "/bento/2.jpg",
       imagePosition: "object-center",
       link: "selection4",
-      text: "National and Global campaigns"
-    },
+      },
     {
       id: 5,
       title: "Events & Convenings",
       image: "/bento/1.jpg",
       imagePosition: "object-center",
       link: "selection5",
-      text: "Regional ministerial conferences, a royal state visit, and global webinar series"
-    },
+      },
   ];
 
   return (
@@ -53,9 +48,9 @@ function Works() {
         </div>
         <div>
           <p className="text-sm md:text-md text-gray-800 leading-relaxed font-light mt-5">
-            My work has taken me from hospital settings and communities to Irish Aid, the UN, USAID, and global multisectoral partnerships.
-            I write, edit, and direct executive, institutional, technical, advocacy, and programmatic communications that multi-stakeholder audiences can more easily digest and apply.
-          </p>
+            My work has taken me from hospital settings and communities to roles with Irish Aid, the UN, USAID, and global partnerships. This broad experience helps me lead executive, institutional, 
+            technical, advocacy, and programmatic communications that diverse audiences can easily understand and use.
+            </p>
         </div>
         <div>
         </div>
