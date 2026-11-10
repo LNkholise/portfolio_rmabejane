@@ -90,7 +90,7 @@ function Home() {
             </p>
             <p className="text-md font light mt-4 mb-4 sm:mb-2 max-w-lg">
               Policy, Technical, Institutional, and Executive Communications •
-              Knowlegde Management and Events
+              Knowledge Management and Event Management
             </p>
             <div className="gap-4 hidden mt-2 mb-6 md:flex">
               <Link to="/selected-works">
