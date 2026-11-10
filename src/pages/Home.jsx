@@ -1,22 +1,24 @@
-import { Link }  from 'react-router-dom';
-import { useState, useEffect } from "react"
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const highlights = [
   {
     id: 1,
     content: (
       <>
-        <b>20 years</b> in international development communications, advocacy, and program management
+        <b>20 years</b> in international development communications, advocacy,
+        and program management
       </>
-    )
+    ),
   },
   {
     id: 2,
     content: (
       <>
-        <b>$500M+</b> in portfolios across <b>120+ countries</b>, supported by communications I led
+        <b>$500M+</b> in portfolios across <b>120+ countries</b>, supported by
+        communications I led
       </>
-    )
+    ),
   },
   {
     id: 3,
@@ -24,25 +26,25 @@ const highlights = [
       <>
         <b>250%</b> peak growth in audience and engagement
       </>
-    )
-  }
-]
+    ),
+  },
+];
 
 export function HighlightsCarousel() {
-  const [current, setCurrent] = useState(0)
+  const [current, setCurrent] = useState(0);
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrent((prev) => (prev === highlights.length - 1 ? 0 : prev + 1))
-    }, 5000)
-    return () => clearInterval(timer)
-  }, [])
+      setCurrent((prev) => (prev === highlights.length - 1 ? 0 : prev + 1));
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="w-full max-w-lg">
       <h2 className="text-xl font-semibold mb-4">Highlights</h2>
       <div className="min-h-[50px] flex items-start">
-        <p 
-          key={current} 
+        <p
+          key={current}
           className="text-sm sm:text-base leading-relaxed animate-in fade-in slide-in-from-right-4 duration-500"
         >
           {highlights[current].content}
@@ -60,7 +62,7 @@ export function HighlightsCarousel() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 function Home() {
@@ -68,28 +70,43 @@ function Home() {
     <div className="max-w-screen mx-auto overflow-x-hidden pb-10 bg-[#fdf9f0] h-screen">
       {/* Banner */}
       <div className="w-full h-[30px] overflow-hidden hidden lg:inline xl:hidden">
-        <img 
-          src="hero.jpeg" 
-          alt="Refiloe Mabejane" 
+        <img
+          src="hero.jpeg"
+          alt="Refiloe Mabejane"
           className="w-full h-full object-cover object-[center_10%]"
         />
       </div>
       <div className="flex flex-col-reverse lg:flex-row items-center ">
         <div className="grid lg:grid-cols-2 xl:grid-cols-1 grid-cols-1 gap-6 items-center justify-center max-w-4xl mx-auto mx-4 my-10 lg:my-4">
-
           <div className="mx-4 xl:mx-18">
-            <h1 className="md:text-5xl text-3xl mx-5 xl:mx-14">Refiloe Mabejane</h1>
+            <h1 className="md:text-5xl text-3xl mx-5 xl:mx-14">
+              Refiloe Mabejane
+            </h1>
           </div>
 
           <div className="flex flex-col justify-center md:justify-end mx-10 xl:mx-15 xl:ml-20">
-            <p className="text-md font-bold mt-4 mb-4 sm:mb-2 max-w-lg">Communications strategist</p>
+            <p className="text-md font-bold mt-4 mb-4 sm:mb-2 max-w-lg">
+              Communications Advisor and Strategist
+            </p>
+            <p className="text-md font light mt-4 mb-4 sm:mb-2 max-w-lg">
+              Policy, Technical, Institutional, and Executive Communications •
+              Knowlegde Management and Events
+            </p>
             <div className="gap-4 hidden mt-2 mb-6 md:flex">
-            <Link to="/selected-works"><button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">See my work</button></Link>
-            <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in touch</button></Link>
+              <Link to="/selected-works">
+                <button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">
+                  See my work
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">
+                  Get in touch
+                </button>
+              </Link>
             </div>
             <HighlightsCarousel />
             <h2 className="text-xl font-semibold mb-4">Education</h2>
-              <ul className="space-y-4">
+            <ul className="space-y-4">
               {/* UEA */}
               <li className="flex items-start gap-4">
                 <img
@@ -98,8 +115,12 @@ function Home() {
                   className="w-12 h-12 object-contain"
                 />
                 <div>
-                  <p className="text-xs sm:text-sm font-medium">MA, Gender Analysis in International Development</p>
-                  <p className="text-xs text-gray-600">University of East Anglia, UK</p>
+                  <p className="text-xs sm:text-sm font-medium">
+                    MA, Gender Analysis in International Development
+                  </p>
+                  <p className="text-xs text-gray-600">
+                    University of East Anglia, UK
+                  </p>
                 </div>
               </li>
 
@@ -111,7 +132,9 @@ function Home() {
                   className="w-12 h-12 object-contain"
                 />
                 <div>
-                  <p className="text-xs sm:text-sm font-medium">Leadership Essentials Certificate</p>
+                  <p className="text-xs sm:text-sm font-medium">
+                    Leadership Essentials Certificate
+                  </p>
                   <p className="text-xs text-gray-600">Cornell, US</p>
                 </div>
               </li>
@@ -124,17 +147,25 @@ function Home() {
                   className="w-12 h-12 object-contain"
                 />
                 <div>
-                  <p className="text-xs sm:text-sm font-medium">BA, Psychology</p>
-                  <p className="text-xs text-gray-600">University of Johannesburg, South Africa</p>
+                  <p className="text-xs sm:text-sm font-medium">
+                    BA, Psychology
+                  </p>
+                  <p className="text-xs text-gray-600">
+                    University of Johannesburg, South Africa
+                  </p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        <img src="hero.jpeg" alt="Refiloe Mabejane" className="h-auto w-[600px] md:w-[800px] lg:w-[700px] rounded-bl-[80px] lg:hidden xl:inline"/>
+        <img
+          src="hero.jpeg"
+          alt="Refiloe Mabejane"
+          className="h-auto w-[600px] md:w-[800px] lg:w-[700px] rounded-bl-[80px] lg:hidden xl:inline"
+        />
       </div>
     </div>
   );
-};
+}
 
 export default Home;
