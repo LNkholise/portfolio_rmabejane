@@ -82,7 +82,7 @@ function Home() {
           </div>
 
           <div className="flex flex-col justify-center md:justify-end mx-10 xl:mx-15 xl:ml-20">
-            <p className="text-md font-light mt-4 mb-4 sm:mb-2 max-w-lg">Communications strategist</p>
+            <p className="text-md font-bold mt-4 mb-4 sm:mb-2 max-w-lg">Communications strategist</p>
             <div className="gap-4 hidden mt-2 mb-6 md:flex">
             <Link to="/selected-works"><button className="border-2 border-gray-800 bg-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-white mt-5">See my work</button></Link>
             <Link to="/contact"><button className="border-2 border-gray-800 p-3 px-4 sm:p-4 text-xs sm:text-sm text-gray-800 mt-5">Get in touch</button></Link>

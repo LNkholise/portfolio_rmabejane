@@ -43,7 +43,7 @@ function Works() {
     <div className="works min-h-screen p-4 bg-[#fdf9f0] flex flex-col justify-between">
       <div className="max-w-7xl mx-auto mt-40 mb-10 px-10 grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
         <div>
-          <h1 className="md:text-5xl text-3xl  font-medium mt-4">Structure. Strategy. Story.</h1>
+          <h1 className="md:text-5xl text-3xl  font-medium mt-4">Strategy. Structure. Story.</h1>
           <p className="text-sm md:text-md text-gray-800 font-light italic mt-4">For institutions, their leaders, and the people they serve.</p>
         </div>
         <div>
